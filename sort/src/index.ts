@@ -6,7 +6,7 @@ class Sorter {
     this.collection = collection;
   }
 
-  sort = (): number[] | string[] => {
+  sort = (): number[] => {
     const { length } = this.collection;
 
     for (let i = 0; i < length; i++) {
